@@ -11,6 +11,8 @@ This project evaluates the novelty of a user-submitted idea by retrieving real-w
 
 **Try it out:** [Google Colab :: Idea Novelty Evaluator](https://colab.research.google.com/drive/1jUIkSO9a671dizPYFAsAWTbCP8VYXi3W#scrollTo=20c40f1d-ba05-462c-bd4f-b7b4158e6650)
 
+
+
 <img width="1591" alt="image" src="https://github.com/user-attachments/assets/b9165b95-9def-492f-a207-028bc712f6fe" />
 
 
@@ -28,7 +30,7 @@ This project evaluates the novelty of a user-submitted idea by retrieving real-w
   * Color = Cluster assignment
   * Size = Semantic similarity to the idea (larger bubbles = more similar)
   * Hover = Shows summary and similarity
-* **Heatmap:** _(uncommnet code block to view)_ A cosine distance heatmap of the embeddings is displayed to show semantic relationships.
+* **Heatmap:** _(uncommnet ```show_distance_heatmap(other_emb, labels)``` to view)_ A cosine distance heatmap of the embeddings is displayed to show semantic relationships.
 * **Table Output:** A clickable HTML table is rendered under the plot showing:
   * Summary (label)
   * Full snippet
