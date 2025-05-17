@@ -1,3 +1,52 @@
 # idea-novelty-evaluator
 
-[Idea Novelty Evaluator Colab](https://colab.research.google.com/drive/1jUIkSO9a671dizPYFAsAWTbCP8VYXi3W#scrollTo=20c40f1d-ba05-462c-bd4f-b7b4158e6650)
+
+## What It Does
+This project evaluates the novelty of a user-submitted idea by retrieving real-world instances of similar ideas from the web using Perplexity, clustering and embedding them, and visualizing them in 3D. Each data point is enriched with a short label, and the visual representation (bubble size) reflects how close each instance is to the original idea.
+
+* Each data point is a retrieved piece of content (e.g., snippet, article title, idea).
+* The bubble size represents semantic similarity to the idea.
+* The cluster/topic reflects thematic grouping (via embedding + clustering).
+* X/Y/Z axes are derived from dimensionality reduction (UMAP), meaning clusters may seem close on the graphic (in order to be visualized in 3D) but might not be as close in the high-dimensional embedding space!
+
+[Google Colab :: Idea Novelty Evaluator](https://colab.research.google.com/drive/1jUIkSO9a671dizPYFAsAWTbCP8VYXi3W#scrollTo=20c40f1d-ba05-462c-bd4f-b7b4158e6650)
+
+<img width="1591" alt="image" src="https://github.com/user-attachments/assets/b9165b95-9def-492f-a207-028bc712f6fe" />
+
+
+## How It Works
+
+* **Input:** A natural language description of an idea.
+* **Retrieval:** Uses the Perplexity API (Sonar model) to return **up to 15** concise, cited examples (snippets + URLs) of how the idea has been realized or discussed. You can adjust it to return more examples if you wish.
+* **Summarization:** Each snippet is summarized into a concise 12-word label using OpenAI's GPT-4o.
+* **Embedding:** The original idea and all retrieved snippets are embedded using OpenAI's text-embedding-3-large.
+* **Clustering:** High-dimensional embeddings are clustered using adaptive KMeans, with the number of clusters determined via silhouette score.
+* **Similarity score:** Calculates cosine similarity between each item in the cluster and the original idea (to determine bubble size). The closer to the idea, the bigger the bubble size.
+* **Dimensionality Reduction:** Uses UMAP to project the high-dimensional embeddings into 3D for visualization.
+* **Visualization:** A 3D scatter plot is rendered using Plotly, with:
+  * X/Y/Z = UMAP-projected coordinates
+  * Color = Cluster assignment
+  * Size = Semantic similarity to the idea (larger bubbles = more similar)
+  * Hover = Shows summary and similarity
+* **Heatmap:** _(uncommnet code block to view)_ A cosine distance heatmap of the embeddings is displayed to show semantic relationships.
+* **Table Output:** A clickable HTML table is rendered under the plot showing:
+  * Summary (label)
+  * Full snippet
+  * Source (linked)
+  * Cluster ID
+  * Similarity score
+
+
+### Tools
+* Perplexity API (```sonar``` | ```sonar-deep-research```): For real-time web search & citation retrieval
+* OpenAI (```gpt-4o```): For converting unstructured Perplexity output into a list and generating summaries (labels)
+* OpenAI Embeddings: (```text-embedding-3-large```): For semantic similarity encoding
+* Scikit-learn: For cosine similarity calculation, silhouette scoring, and clustering via KMeans
+* UMAP: For dimensionality reduction into 3D space
+* Plotly: For interactive 3D visualization
+* Seaborn / Matplotlib: For generating cosine distance heatmap
+* Pandas / HTML: For structured tabular output and display
+
+## How-To
+
+
