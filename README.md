@@ -9,7 +9,7 @@ This project evaluates the novelty of a user-submitted idea by retrieving real-w
 * The cluster/topic reflects thematic grouping (via embedding + clustering).
 * X/Y/Z axes are derived from dimensionality reduction (UMAP), meaning clusters may seem close on the graphic (in order to be visualized in 3D) but might not be as close in the high-dimensional embedding space!
 
-[Google Colab :: Idea Novelty Evaluator](https://colab.research.google.com/drive/1jUIkSO9a671dizPYFAsAWTbCP8VYXi3W#scrollTo=20c40f1d-ba05-462c-bd4f-b7b4158e6650)
+**Try it out:** [Google Colab :: Idea Novelty Evaluator](https://colab.research.google.com/drive/1jUIkSO9a671dizPYFAsAWTbCP8VYXi3W#scrollTo=20c40f1d-ba05-462c-bd4f-b7b4158e6650)
 
 <img width="1591" alt="image" src="https://github.com/user-attachments/assets/b9165b95-9def-492f-a207-028bc712f6fe" />
 
