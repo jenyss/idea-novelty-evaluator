@@ -66,4 +66,7 @@ This project evaluates the novelty of a user-submitted idea by retrieving real-w
   - OPENAI_API_KEY=your_key
 - Run the notebook. The required dependencies are in the notebook.
 
+**Perplexity model configuration**
 
+The default model is ```sonar-deep-research```, which provides higher-quality results but may incur increased API costs.
+To use the faster, lower-cost model for testing, change the ```model``` parameter default in the ```get_perplexity_results``` function to ```model: str = "sonar"```
