@@ -2,7 +2,7 @@
 How novel is your idea? Has someone else already thought of it? How do we judge whether an idea is too wild, too ambitious, or incredibly valuable? Explore all of that with the Idea Novelty Evaluator.
 
 ## What It Does
-his project evaluates the novelty of a user-submitted idea by retrieving real-world examples of similar concepts from the web using Perplexity. These examples are embedded, clustered based on semantic similarity, and visualized in an interactive 3D space. Each point includes a concise label, with bubble size indicating how closely it aligns with the original idea.
+This project evaluates the novelty of a user-submitted idea by retrieving real-world examples of similar concepts from the web using Perplexity. These examples are embedded, clustered based on semantic similarity, and visualized in an interactive 3D space. Each point includes a concise label, with bubble size indicating how closely it aligns with the original idea.
 
 * Each data point is a retrieved piece of content (e.g., snippet, article title, idea).
 * The bubble size represents semantic similarity to the idea.
