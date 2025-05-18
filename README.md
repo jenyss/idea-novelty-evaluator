@@ -63,7 +63,7 @@ his project evaluates the novelty of a user-submitted idea by retrieving real-wo
 - Create a .env file with your API keys:
   - PERPLEXITY_SONAR_API_KEY=your_key
   - OPENAI_API_KEY=your_key
-- Run the notebook. The required dependencies are in the notebook.
+- Run the notebook cells. The required dependencies are installed at the beginning of the notebook.
 
 **Perplexity model configuration**
 
