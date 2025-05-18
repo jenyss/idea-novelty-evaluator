@@ -15,6 +15,9 @@ his project evaluates the novelty of a user-submitted idea by retrieving real-wo
 
 <img width="1100" alt="image" src="https://github.com/user-attachments/assets/64569423-717f-42f1-918b-1534e770de84" />
 
+<img width="1185" alt="image" src="https://github.com/user-attachments/assets/39161c49-4707-4e9b-931e-b6159b22d635" />
+
+
 
 ## How It Works
 
