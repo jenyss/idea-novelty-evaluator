@@ -11,6 +11,11 @@ This project evaluates the novelty of a user-submitted idea by retrieving real-w
 
 **Try it out:** [Google Colab :: Idea Novelty Evaluator](https://colab.research.google.com/drive/1jUIkSO9a671dizPYFAsAWTbCP8VYXi3W#scrollTo=20c40f1d-ba05-462c-bd4f-b7b4158e6650)
 
+<img width="1106" alt="image" src="https://github.com/user-attachments/assets/8e99e41c-b0f0-45b8-b23a-6b2f9a77cfa6" />
+
+<img width="1100" alt="image" src="https://github.com/user-attachments/assets/64569423-717f-42f1-918b-1534e770de84" />
+
+
 <img width="1523" alt="image" src="https://github.com/user-attachments/assets/f78fc950-6197-4ef2-bff9-3a1fe48536d1" />
 
 <img width="1523" alt="image" src="https://github.com/user-attachments/assets/a1754b7f-84f1-429e-b9a5-1d4e611ef267" />
