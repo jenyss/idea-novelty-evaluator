@@ -71,5 +71,5 @@ This project evaluates the novelty of a user-submitted idea by retrieving real-w
 
 **Perplexity model configuration**
 
-The default model is ```sonar-deep-research```, which provides higher-quality results but may incur increased API costs.
-To use the faster, lower-cost model for testing, change the ```model``` parameter default in the ```get_perplexity_results``` function to ```model: str = "sonar"```
+The default model is ```sonar-deep-research```, which provides higher-quality results but incurs higher API costs.
+To use the faster, less precise, but lower-cost ```sonal``` model for testing, change the ```model``` parameter default in the ```get_perplexity_results``` function to ```model: str = "sonar"```
