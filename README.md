@@ -54,8 +54,8 @@ his project evaluates the novelty of a user-submitted idea by retrieving real-wo
 **Option 1:** Run in Colab
 
 - Open the provided [Colab notebook](https://colab.research.google.com/drive/1jUIkSO9a671dizPYFAsAWTbCP8VYXi3W#scrollTo=20c40f1d-ba05-462c-bd4f-b7b4158e6650)
-- Add your API keys in the Colab secrets (e.g., PERPLEXITY_SONAR_API_KEY, OPENAI_API_KEY)
-- Run the notebook cells
+- Add your API keys in the Colab secrets: PERPLEXITY_SONAR_API_KEY, OPENAI_API_KEY
+- Ask about your idea in the last notebook cell, then either run the cells one by one or choose **Run all** from the **Runtime** menu.
 
 **Option 2:** Run Locally
 
