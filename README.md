@@ -55,7 +55,7 @@ his project evaluates the novelty of a user-submitted idea by retrieving real-wo
 
 - Open the provided [Colab notebook](https://colab.research.google.com/drive/1jUIkSO9a671dizPYFAsAWTbCP8VYXi3W#scrollTo=20c40f1d-ba05-462c-bd4f-b7b4158e6650)
 - Add your API keys in the Colab secrets: PERPLEXITY_SONAR_API_KEY, OPENAI_API_KEY
-- Ask about your idea in the last notebook cell, then either run the cells one by one or choose **Run all** from the **Runtime** menu.
+- Ask about your idea in the last notebook cell, then either run the cells one by one or choose **Run all** from the **Runtime** menu. The required dependencies are installed at the beginning of the notebook.
 
 **Option 2:** Run Locally
 
@@ -63,7 +63,7 @@ his project evaluates the novelty of a user-submitted idea by retrieving real-wo
 - Create a .env file with your API keys:
   - PERPLEXITY_SONAR_API_KEY=your_key
   - OPENAI_API_KEY=your_key
-- Run the notebook cells. The required dependencies are installed at the beginning of the notebook.
+- Ask about your idea in the last notebook cell, then either run the notebook cells one by one or choose **Run All Cells** from the **Run** menu. 
 
 **Perplexity model configuration**
 
