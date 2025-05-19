@@ -39,7 +39,7 @@ This project evaluates the novelty of a user-submitted idea by retrieving real-w
   * Summary (label)
   * Full snippet
   * Source (URL)
-  * Cluster ID
+  * Cluster topic
   * Similarity score
 
 
