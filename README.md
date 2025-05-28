@@ -2,6 +2,9 @@
 How novel is your idea? Has someone else already thought of it? How do we judge whether an idea is too wild, too ambitious, or incredibly valuable? Explore all of that with the Idea Novelty Evaluator.
 [See on YouTube](https://www.youtube.com/watch?v=KklDjV3atjY)
 
+
+If you have any questions or would like to collaborate, feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/jenya-stoeva-60477249/). You're more than welcome!
+
 ## What It Does
 This project evaluates the novelty of a user-submitted idea by retrieving real-world examples of similar concepts from the web using Perplexity. These examples are embedded, clustered based on semantic similarity, and visualized in an interactive 3D space. Each point includes a concise label, with bubble size indicating how closely it aligns with the original idea.
 
