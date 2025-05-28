@@ -64,6 +64,19 @@ This project evaluates the novelty of a user-submitted idea by retrieving real-w
 - Add your API keys in the Colab ```Secrets``` menu: ```PERPLEXITY_SONAR_API_KEY```, ```OPENAI_API_KEY```
 - Ask about your idea in the last notebook cell, then either run the cells one by one or choose **Run all** from the **Runtime** menu. The required dependencies are installed at the beginning of the notebook.
 
+```
+# idea = "AI‑based evaluation of product novelty in the innovation lifecycle"
+# idea = "Mint cholocate invention"
+# idea = "Planting pot which can be adjusted to different sizes, to get smaller or bigger depending on the need of the plant to be planted."
+# idea = "Overlaying Perplexity research data on a visualization"
+# idea = "An invention that can stop all worlf wars."
+# idea = "An invention that can judge the craziness of an idea."
+# idea = "Was it already discovered that when you press your finger on a tomato a visible fingerprint is left."
+
+idea = "An invention that can judge the craziness of an idea."
+fig = process_idea_novelty_visualization(idea)
+```
+
 **Option 2:** Run Locally
 
 - Clone this repo and open the uploaded notebook in Jupyter or VSCode
