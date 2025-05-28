@@ -61,15 +61,15 @@ This project evaluates the novelty of a user-submitted idea by retrieving real-w
 **Option 1:** Run in Colab
 
 - Open the provided [Colab notebook](https://colab.research.google.com/drive/1jUIkSO9a671dizPYFAsAWTbCP8VYXi3W)
-- Add your API keys in the Colab ```Secrets``` menu: PERPLEXITY_SONAR_API_KEY, OPENAI_API_KEY
+- Add your API keys in the Colab ```Secrets``` menu: ```PERPLEXITY_SONAR_API_KEY```, ```OPENAI_API_KEY```
 - Ask about your idea in the last notebook cell, then either run the cells one by one or choose **Run all** from the **Runtime** menu. The required dependencies are installed at the beginning of the notebook.
 
 **Option 2:** Run Locally
 
 - Clone this repo and open the uploaded notebook in Jupyter or VSCode
 - Create a .env file with your API keys:
-  - PERPLEXITY_SONAR_API_KEY=your_key
-  - OPENAI_API_KEY=your_key
+  - ```PERPLEXITY_SONAR_API_KEY```
+  - ```OPENAI_API_KEY```
 - Ask about your idea in the last notebook cell, then either run the notebook cells one by one or choose **Run All Cells** from the **Run** menu. 
 
 **Perplexity model configuration**
