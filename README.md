@@ -1,6 +1,6 @@
 # idea-novelty-evaluator
 How novel is your idea? Has someone else already thought of it? How do we judge whether an idea is too wild, too ambitious, or incredibly valuable? Explore all of that with the Idea Novelty Evaluator.
-[See on YouTube](https://www.youtube.com/watch?v=KklDjV3atjY)
+[![Watch on YouTube](https://img.shields.io/badge/Watch%20on-YouTube-red?logo=youtube&style=for-the-badge)](https://www.youtube.com/watch?v=KklDjV3atjY)
 
 
 If you have any questions or would like to collaborate, feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/jenya-stoeva-60477249/). You're more than welcome!
